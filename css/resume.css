@@ -1,0 +1,48 @@
+html,button,input,select,textarea {
+	color: #E3E3E3;
+	
+}
+html {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+h3 {
+	color: #F3E367;
+}
+
+body{
+	background-color: #63BCE5;
+	margin-left: 40px;
+	margin-right: 40px; 
+
+
+}
+a {
+	text-decoration: none;
+  }
+
+#wrapper {
+	max-width: 900px;
+	min-width: 320px; 
+	margin-right:auto;
+	margin-left:auto;
+}
+header img {
+  border: 1px solid ;
+  padding: 15px;
+  border-image: url(asmae.jpg) 50 round;
+  color: #ccc;
+  float:right;
+  background-color:white;
+  box-shadow: 0px 0px 0px 0.2; 
+  border-radius: 50%;
+
+
+  
+}
+
+h1 {
+  	font-family: aguafina-script, cursive;
+  }
+
