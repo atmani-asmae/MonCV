@@ -1,5 +1,5 @@
 html,button,input,select,textarea {
-	color: #E3E3E3;
+	color: #F1F1EF;
 	
 }
 html {
@@ -8,18 +8,21 @@ html {
 }
 
 h3 {
-	color: #F3E367;
+	color: #C19434;
+	font-weight: 900;
 }
 
 body{
-	background-color: #63BCE5;
-	margin-left: 40px;
-	margin-right: 40px; 
+	background-color: #22223A;
+	margin-left: 120px;
+	margin-right: 120px; 
 
 
 }
 a {
 	text-decoration: none;
+	color: #F1F1EF;
+
   }
 
 #wrapper {
@@ -27,22 +30,36 @@ a {
 	min-width: 320px; 
 	margin-right:auto;
 	margin-left:auto;
+	width: 100px;
+	text-align: center;
 }
-header img {
-  border: 1px solid ;
+img {
+  border: 0.5px solid ;
   padding: 15px;
-  border-image: url(asmae.jpg) 50 round;
-  color: #ccc;
+  border-image: url(asmae.jpg) 20 round;
   float:right;
-  background-color:white;
+  background-color: white;
   box-shadow: 0px 0px 0px 0.2; 
-  border-radius: 50%;
-
-
-  
 }
 
-h1 {
-  	font-family: aguafina-script, cursive;
-  }
+header {
 
+	background-color: #7DA2A9
+	color : #F7F7F7;
+}
+
+hr {
+  border: 1px solid #EBA63F;
+}
+
+i{
+	padding-right: 20px;
+}
+
+.relative2 {
+  position: relative;
+
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
