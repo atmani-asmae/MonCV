@@ -23,7 +23,7 @@
 </head>
 <body>
 	
-	<div id="wrapper"></div>
+	<div id="wrapper">
 		<header>
 			<img src="asmae.jpg" 
 				    alt="Ma Photo"
@@ -35,13 +35,25 @@
 			<center><h3 id="profile">Etudiante MASTER 2 Developpement Logiciel Des Systemes D'Informations</h3></center>
 			
 			
-			<div id="info">
+			<!--<div id="info">
 				<h4>Information complementaires:</h4>
 				<h4>4, rue des archives bâtiment C, logement C420</h4>
 				<h4>29200 Brest, France</h4>
 				<h4>06.99.71.47.76</h4>
 				<h4>asmae96atmani@gmail.com</h4>
 			</div>
+		-->
+		<div class="home-info" itemscope itemtype="http://schema.org/Person">
+        <dl>
+          <dt><i class="fa fa-home" aria-hidden="true"></i> Information complementaires:</dt>
+            <dd itemprop="homeLocation">4, rue des archives bâtiment C, logement C420</dd>
+            <dd>29200 Brest, France</dd>
+            <dd itemprop="birthDate">26/09/1996</dd>
+            <dd itemprop="telephone">06.99.71.47.76</dd>
+            <dd itemprop="email">asmae96atmani@gmail.com</dd>
+            
+
+        </dl>
 		</header>
 		<hr>
 				<article>
@@ -192,6 +204,17 @@
 		<a href="#">Flickr</a><i class="fa fa-flickr" ></i>
 		<a href="#">Facebook</a><i class="fa fa-facebook-f" ></i>
 	</footer>
-
+</div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
