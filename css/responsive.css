@@ -1,0 +1,23 @@
+@media only screen and (max-width: 740px){
+	#wrapper{
+		background: #f77;
+	}
+	img{
+		float: none;
+	}
+	h3{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 570px){
+	#wrapper{
+		background: #7f7;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	#wrapper{
+		background: #77f;
+	}
+}
